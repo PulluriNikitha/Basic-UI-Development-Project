@@ -1,0 +1,227 @@
+.main-container
+{
+    display: flex;
+    flex-direction: column;
+}
+/* 1st section starts here */
+.name
+{
+    background: url(b2.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav_bar > ul
+{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.nav_bar > ul > li
+{
+    list-style: none;
+    font-size: 20px;
+    border-bottom: 1px;
+    border-bottom-style: none ;
+}
+.nav_bar > ul > li:hover
+{
+    border-bottom-style: solid;
+}
+#myName
+{
+    font-size: 100px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    font-family: 'Sacramento',cursive;
+}
+#iAm
+{
+    font-size: 50px;
+    margin-top: 0;
+}
+/* 1st section ends here */
+/* About me section starts here */
+.about
+{
+    display: flex;
+    flex-direction: column;
+}
+.me
+{
+    display: flex;
+    flex-direction: row;
+    max-width: 75vw;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.intro
+{
+    padding: 40px;
+}
+.intro > h1
+{
+    display: block;
+    margin: auto;
+}
+#intro_head
+{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 45px;
+}
+#intro_body
+{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+/* About me section ends here */
+.contact_me
+{
+    background-color: rgb(205, 50, 50);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact_me > h1
+{
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.contact_me > p
+{
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 0;
+    font-size: 20px;
+}
+.email
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50vw;
+    height: 40vh;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+#mail_body
+{
+    display: block;
+    font-size: 15px;
+    padding: 5px;
+}
+
+input
+{
+    font-size: 15px;
+    padding: 5px;
+    
+}
+
+#send
+{
+    margin-top: 10px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 999px;
+}
+
+.ip_heading
+{
+    color: white;
+    font-size: 25px;
+}
+/* contact me section ends here */
+/* skills start here */
+.skills
+{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.skill
+{
+    width: 90%;
+    border-right: 2px dashed lightblue;
+    margin: 10px;
+}
+
+.skill > p
+{
+    font-size: 35px;
+    text-align: center;
+}
+
+.skill_images
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.skill_heading
+{
+    color: #3a3a3a;
+    font-size: 40px;
+}
+
+#resume_pdf
+{
+    border: 2px solid rgb(7, 106, 139);
+    border-top: 5px solid rgb(7, 106, 139);
+    padding: 5px;
+    padding-top: 10px;
+}
+
+.resume
+{
+    margin: 10px;
+}
+
+.resume > p
+{
+    font-size: 35px;
+    text-align: center;
+}
+/* skills end */
+/* footer starts */
+.footer
+{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    margin-bottom: 0;
+    background: url(b3.jpg);
+}
+#footer_name
+{
+    font-family: 'Sacramento',cursive;
+    font-size: 50px;
+    color: white;
+    margin: 0;
+}
+#footer_msg
+{
+    font-size: 20px;
+    color: white;
+    margin: 0;
+}
+/* footer ends */
